@@ -2,7 +2,6 @@
 
 from random import choice
 
-
 welcome = "Hello Adventurer. Do you wanna play this 'Go to Hell Game'? "
 welcome += "\nWhen you feel ready to start, type 'START' and the game will begin: "
 
