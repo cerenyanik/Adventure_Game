@@ -2,6 +2,13 @@
 
 from random import choice
 
+
+welcome = "Hello Adventurer. Do you wanna play this 'Go to Hell Game'? "
+welcome += "\nWhen you feel ready to start, type 'START' and the game will begin: "
+
+welcome = input (welcome)
+
+
 def room1():
     # Dragon room
     print ("\nYou are in the room with three dragons which are "
@@ -84,6 +91,7 @@ def room3():
               "you gained in the chemical pool.")
     print("\nYour head started spinning and you passed out.")
 
+    
 def room4():
     # Room of darkness
     print("When you open your eyes, you find yourself in a labyrinth. "
@@ -130,7 +138,6 @@ def room4():
                    "Now you can go back to your life and start living "
                    "knowing the value of your life.")
             
-        
     if door.lower() == "right":
         print(f"\nWhen you entered the hungry lion's room, it suddenly attacked you. "
               "You started fighting the lion with the skill you've gained before "
@@ -149,11 +156,6 @@ def room4():
                    "Now you can go back to your life and start living "
                    "knowing the value of your life.")
 
-
-welcome = "Hello Adventurer. Do you wanna play this 'Go to Hell Game'? "
-welcome += "\nWhen you feel ready to start, type 'START' and the game will begin: "
-
-welcome = input (welcome)
 
 if welcome.lower() == "start":
     room1()
